@@ -1,0 +1,35 @@
+Freezing layer 'model.22.dfl.conv.weight'
+[34m[1malbumentations: [39m[22mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01), CLAHE(p=0.01, clip_limit=(1, 4.0), tile_grid_size=(8, 8))
+Plotting labels to runs/detect/train2/labels.jpg...
+[34m[1mtrain: [39m[22mScanning /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/data/train/labels.cache... 98 images, 9 backgrounds, 0 corrupt: 100%|████
+[34m[1mval: [39m[22mScanning /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/data/valid/labels.cache... 26 images, 2 backgrounds, 0 corrupt: 100%|██████
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.002, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+Traceback (most recent call last):
+  File "/Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/eval.py", line 1, in <module>
+    from model import model
+  File "/Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/model.py", line 5, in <module>
+    model.train(data=data_yaml_path, epochs=50)
+  File "/usr/local/lib/python3.9/site-packages/ultralytics/engine/model.py", line 813, in train
+    self.trainer.train()
+  File "/usr/local/lib/python3.9/site-packages/ultralytics/engine/trainer.py", line 208, in train
+    self._do_train(world_size)
+  File "/usr/local/lib/python3.9/site-packages/ultralytics/engine/trainer.py", line 335, in _do_train
+    self.run_callbacks("on_train_start")
+  File "/usr/local/lib/python3.9/site-packages/ultralytics/engine/trainer.py", line 169, in run_callbacks
+    callback(self)
+  File "/usr/local/lib/python3.9/site-packages/ultralytics/utils/callbacks/tensorboard.py", line 85, in on_train_start
+    _log_tensorboard_graph(trainer)
+  File "/usr/local/lib/python3.9/site-packages/ultralytics/utils/callbacks/tensorboard.py", line 65, in _log_tensorboard_graph
+    WRITER.add_graph(torch.jit.trace(model, im, strict=False), [])
+  File "/usr/local/lib/python3.9/site-packages/torch/jit/_trace.py", line 798, in trace
+    return trace_module(
+  File "/usr/local/lib/python3.9/site-packages/torch/jit/_trace.py", line 1093, in trace_module
+    _check_trace(
+  File "/usr/local/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/torch/jit/_trace.py", line 334, in _check_trace
+    check_mod = torch.jit.trace_module(
+  File "/usr/local/lib/python3.9/site-packages/torch/jit/_trace.py", line 1065, in trace_module
+    module._c._create_method_from_trace(
+KeyboardInterrupt

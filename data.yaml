@@ -1,0 +1,7 @@
+
+train: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/data/train/images
+val: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/data/valid/images
+test: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/data/test/images
+
+nc: 1  # number of classes
+names: ['class_0']  # class names

@@ -1,0 +1,45 @@
+{
+    "os": "macOS-14.4.1-x86_64-i386-64bit",
+    "python": "3.9.18",
+    "heartbeatAt": "2024-08-25T14:29:33.316560",
+    "startedAt": "2024-08-25T14:29:31.819880",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/model.py",
+    "codePathLocal": "model.py",
+    "codePath": "Documents/projet_IA/Mars_Crater_detection/model.py",
+    "git": {
+        "remote": null,
+        "commit": "4cb10b7658245ca8d526cca4120089bbd99c9433"
+    },
+    "email": "tristanlecourtois4@gmail.com",
+    "root": "/Users/lecourtoistristan",
+    "host": "MacBook-Pro-de-Tristan.local",
+    "username": "lecourtoistristan",
+    "executable": "/usr/local/opt/python@3.9/bin/python3.9",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 465.62699127197266,
+            "used": 19.067306518554688
+        }
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

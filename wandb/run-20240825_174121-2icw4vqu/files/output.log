@@ -1,0 +1,53 @@
+Freezing layer 'model.22.dfl.conv.weight'
+[34m[1malbumentations: [39m[22mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01), CLAHE(p=0.01, clip_limit=(1, 4.0), tile_grid_size=(8, 8))
+Plotting labels to runs/detect/train4/labels.jpg...
+[34m[1mtrain: [39m[22mScanning /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/data/train/labels.cache... 98 images, 9 backgrounds, 0 corrupt: 100%|████
+[34m[1mval: [39m[22mScanning /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/data/valid/labels.cache... 26 images, 2 backgrounds, 0 corrupt: 100%|██████
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.002, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added ✅
+Image sizes 640 train, 640 val
+Using 0 dataloader workers
+Logging results to [1mruns/detect/train4
+Starting training for 20 epochs...
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+       1/20         0G      2.014      3.409      1.547        124        640:  29%|██▊       | 2/7 [00:30<01:18, 15.67s/it]Exception in thread Thread-8:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.18_2/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 980, in _bootstrap_inner
+    self.run()
+  File "/usr/local/Cellar/python@3.9/3.9.18_2/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 917, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.9/site-packages/ultralytics/utils/plotting.py", line 1088, in plot_images
+    annotator.im.save(fname)  # save
+  File "/usr/local/lib/python3.9/site-packages/PIL/Image.py", line 2410, in save
+    fp = builtins.open(filename, "w+b")
+FileNotFoundError: [Errno 2] No such file or directory: 'runs/detect/train4/train_batch1.jpg'
+       1/20         0G      1.925      3.439      1.468        136        640:  43%|████▎     | 3/7 [00:44<00:59, 14.80s/it]Exception in thread Thread-9:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.18_2/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 980, in _bootstrap_inner
+    self.run()
+  File "/usr/local/Cellar/python@3.9/3.9.18_2/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 917, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.9/site-packages/ultralytics/utils/plotting.py", line 1088, in plot_images
+    annotator.im.save(fname)  # save
+  File "/usr/local/lib/python3.9/site-packages/PIL/Image.py", line 2410, in save
+    fp = builtins.open(filename, "w+b")
+FileNotFoundError: [Errno 2] No such file or directory: 'runs/detect/train4/train_batch2.jpg'
+
+
+       1/20         0G      1.752      3.367      1.413         30        640: 100%|██████████| 7/7 [01:25<00:00, 12.16s/it]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/1 [00:00<?, ?it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:05<00:00,  5.02s/it]
+Traceback (most recent call last):
+  File "/Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/eval.py", line 7, in <module>
+    model.train(data=data_yaml_path, epochs=20)
+  File "/usr/local/lib/python3.9/site-packages/ultralytics/engine/model.py", line 813, in train
+    self.trainer.train()
+  File "/usr/local/lib/python3.9/site-packages/ultralytics/engine/trainer.py", line 208, in train
+    self._do_train(world_size)
+  File "/usr/local/lib/python3.9/site-packages/ultralytics/engine/trainer.py", line 434, in _do_train
+    self.save_metrics(metrics={**self.label_loss_items(self.tloss), **self.metrics, **self.lr})
+  File "/usr/local/lib/python3.9/site-packages/ultralytics/engine/trainer.py", line 631, in save_metrics
+    with open(self.csv, "a") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'runs/detect/train4/results.csv'

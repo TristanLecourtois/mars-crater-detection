@@ -1,0 +1,196 @@
+2024-08-25 17:34:18,656 INFO    StreamThr :33013 [internal.py:wandb_internal():85] W&B internal server running at pid: 33013, started at: 2024-08-25 17:34:18.654098
+2024-08-25 17:34:18,658 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: status
+2024-08-25 17:34:18,664 INFO    WriterThread:33013 [datastore.py:open_for_write():87] open: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_173418-kexoav99/run-kexoav99.wandb
+2024-08-25 17:34:18,665 DEBUG   SenderThread:33013 [sender.py:send():391] send: header
+2024-08-25 17:34:18,844 DEBUG   SenderThread:33013 [sender.py:send():391] send: run
+2024-08-25 17:34:19,789 INFO    SenderThread:33013 [dir_watcher.py:__init__():211] watching files in: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_173418-kexoav99/files
+2024-08-25 17:34:19,790 INFO    SenderThread:33013 [sender.py:_start_run_threads():1200] run started: kexoav99 with start time 1724600058.6542
+2024-08-25 17:34:19,800 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: check_version
+2024-08-25 17:34:19,801 DEBUG   SenderThread:33013 [sender.py:send_request():418] send_request: check_version
+2024-08-25 17:34:20,102 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: run_start
+2024-08-25 17:34:20,113 DEBUG   HandlerThread:33013 [system_info.py:__init__():26] System info init
+2024-08-25 17:34:20,114 DEBUG   HandlerThread:33013 [system_info.py:__init__():41] System info init done
+2024-08-25 17:34:20,114 INFO    HandlerThread:33013 [system_monitor.py:start():194] Starting system monitor
+2024-08-25 17:34:20,114 INFO    SystemMonitor:33013 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-08-25 17:34:20,116 INFO    HandlerThread:33013 [system_monitor.py:probe():214] Collecting system info
+2024-08-25 17:34:20,116 INFO    SystemMonitor:33013 [interfaces.py:start():188] Started cpu monitoring
+2024-08-25 17:34:20,116 DEBUG   HandlerThread:33013 [system_info.py:probe():152] Probing system
+2024-08-25 17:34:20,117 INFO    SystemMonitor:33013 [interfaces.py:start():188] Started disk monitoring
+2024-08-25 17:34:20,120 INFO    SystemMonitor:33013 [interfaces.py:start():188] Started memory monitoring
+2024-08-25 17:34:20,121 INFO    SystemMonitor:33013 [interfaces.py:start():188] Started network monitoring
+2024-08-25 17:34:20,131 DEBUG   HandlerThread:33013 [system_info.py:_probe_git():137] Probing git
+2024-08-25 17:34:20,180 DEBUG   HandlerThread:33013 [system_info.py:_probe_git():145] Probing git done
+2024-08-25 17:34:20,181 DEBUG   HandlerThread:33013 [system_info.py:probe():200] Probing system done
+2024-08-25 17:34:20,181 DEBUG   HandlerThread:33013 [system_monitor.py:probe():223] {'os': 'macOS-14.4.1-x86_64-i386-64bit', 'python': '3.9.18', 'heartbeatAt': '2024-08-25T15:34:20.119095', 'startedAt': '2024-08-25T15:34:18.642467', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/eval.py', 'codePathLocal': 'eval.py', 'codePath': 'Documents/projet_IA/Mars_Crater_detection/eval.py', 'git': {'remote': None, 'commit': '4cb10b7658245ca8d526cca4120089bbd99c9433'}, 'email': 'tristanlecourtois4@gmail.com', 'root': '/Users/lecourtoistristan', 'host': 'MacBook-Pro-de-Tristan.local', 'username': 'lecourtoistristan', 'executable': '/usr/local/opt/python@3.9/bin/python3.9', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2400, 'min': 2400, 'max': 2400}, 'cpu_freq_per_core': [{'current': 2400, 'min': 2400, 'max': 2400}], 'disk': {'/': {'total': 465.62699127197266, 'used': 19.067306518554688}}, 'memory': {'total': 8.0}}
+2024-08-25 17:34:20,181 INFO    HandlerThread:33013 [system_monitor.py:probe():224] Finished collecting system info
+2024-08-25 17:34:20,181 INFO    HandlerThread:33013 [system_monitor.py:probe():227] Publishing system info
+2024-08-25 17:34:20,183 INFO    HandlerThread:33013 [system_monitor.py:probe():229] Finished publishing system info
+2024-08-25 17:34:20,198 DEBUG   SenderThread:33013 [sender.py:send():391] send: files
+2024-08-25 17:34:20,198 INFO    SenderThread:33013 [sender.py:_save_file():1466] saving file wandb-metadata.json with policy now
+2024-08-25 17:34:20,554 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: python_packages
+2024-08-25 17:34:20,555 DEBUG   SenderThread:33013 [sender.py:send_request():418] send_request: python_packages
+2024-08-25 17:34:20,557 DEBUG   SenderThread:33013 [sender.py:send():391] send: telemetry
+2024-08-25 17:34:20,558 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:34:20,558 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-25 17:34:20,559 DEBUG   SenderThread:33013 [sender.py:send_request():418] send_request: stop_status
+2024-08-25 17:34:20,795 INFO    Thread-12 :33013 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_173418-kexoav99/files/wandb-metadata.json
+2024-08-25 17:34:20,796 INFO    Thread-12 :33013 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_173418-kexoav99/files/requirements.txt
+2024-08-25 17:34:20,954 DEBUG   SenderThread:33013 [sender.py:send():391] send: telemetry
+2024-08-25 17:34:21,035 INFO    wandb-upload_0:33013 [upload_job.py:push():130] Uploaded file /var/folders/1t/5696w2xn2vsdwdq75jywx2sc0000gq/T/tmp1bzfyf6nwandb/a80guves-wandb-metadata.json
+2024-08-25 17:34:21,584 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:34:21,792 INFO    Thread-12 :33013 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_173418-kexoav99/files/output.log
+2024-08-25 17:34:22,601 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:34:23,619 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:34:23,797 INFO    Thread-12 :33013 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_173418-kexoav99/files/output.log
+2024-08-25 17:34:24,015 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: status_report
+2024-08-25 17:34:24,607 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:34:25,369 DEBUG   SenderThread:33013 [sender.py:send():391] send: telemetry
+2024-08-25 17:34:25,550 DEBUG   SenderThread:33013 [sender.py:send():391] send: telemetry
+2024-08-25 17:34:25,608 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:34:26,609 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:34:27,651 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:34:27,802 INFO    Thread-12 :33013 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_173418-kexoav99/files/output.log
+2024-08-25 17:34:28,617 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:34:29,626 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:34:29,956 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: status_report
+2024-08-25 17:34:30,630 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:34:31,632 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:34:31,847 DEBUG   SenderThread:33013 [sender.py:send():391] send: exit
+2024-08-25 17:34:31,848 INFO    SenderThread:33013 [sender.py:send_exit():598] handling exit code: 255
+2024-08-25 17:34:31,848 INFO    SenderThread:33013 [sender.py:send_exit():600] handling runtime: 11
+2024-08-25 17:34:31,849 INFO    SenderThread:33013 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-25 17:34:31,850 INFO    SenderThread:33013 [sender.py:send_exit():606] send defer
+2024-08-25 17:34:31,850 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: defer
+2024-08-25 17:34:31,850 INFO    HandlerThread:33013 [handler.py:handle_request_defer():184] handle defer: 0
+2024-08-25 17:34:31,851 DEBUG   SenderThread:33013 [sender.py:send_request():418] send_request: defer
+2024-08-25 17:34:31,851 INFO    SenderThread:33013 [sender.py:send_request_defer():622] handle sender defer: 0
+2024-08-25 17:34:31,851 INFO    SenderThread:33013 [sender.py:transition_state():626] send defer: 1
+2024-08-25 17:34:31,852 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: defer
+2024-08-25 17:34:31,852 INFO    HandlerThread:33013 [handler.py:handle_request_defer():184] handle defer: 1
+2024-08-25 17:34:31,853 DEBUG   SenderThread:33013 [sender.py:send_request():418] send_request: defer
+2024-08-25 17:34:31,853 INFO    SenderThread:33013 [sender.py:send_request_defer():622] handle sender defer: 1
+2024-08-25 17:34:31,853 INFO    SenderThread:33013 [sender.py:transition_state():626] send defer: 2
+2024-08-25 17:34:31,853 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: defer
+2024-08-25 17:34:31,853 INFO    HandlerThread:33013 [handler.py:handle_request_defer():184] handle defer: 2
+2024-08-25 17:34:31,853 INFO    HandlerThread:33013 [system_monitor.py:finish():203] Stopping system monitor
+2024-08-25 17:34:31,854 INFO    HandlerThread:33013 [interfaces.py:finish():200] Joined cpu monitor
+2024-08-25 17:34:31,854 DEBUG   SystemMonitor:33013 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-08-25 17:34:31,854 INFO    HandlerThread:33013 [interfaces.py:finish():200] Joined disk monitor
+2024-08-25 17:34:31,855 DEBUG   SystemMonitor:33013 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-08-25 17:34:31,855 INFO    HandlerThread:33013 [interfaces.py:finish():200] Joined memory monitor
+2024-08-25 17:34:31,855 DEBUG   SystemMonitor:33013 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-08-25 17:34:31,855 INFO    HandlerThread:33013 [interfaces.py:finish():200] Joined network monitor
+2024-08-25 17:34:31,857 DEBUG   SenderThread:33013 [sender.py:send_request():418] send_request: defer
+2024-08-25 17:34:31,857 INFO    SenderThread:33013 [sender.py:send_request_defer():622] handle sender defer: 2
+2024-08-25 17:34:31,857 INFO    SenderThread:33013 [sender.py:transition_state():626] send defer: 3
+2024-08-25 17:34:31,857 DEBUG   SenderThread:33013 [sender.py:send():391] send: stats
+2024-08-25 17:34:31,857 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: defer
+2024-08-25 17:34:31,858 INFO    HandlerThread:33013 [handler.py:handle_request_defer():184] handle defer: 3
+2024-08-25 17:34:31,858 DEBUG   SenderThread:33013 [sender.py:send_request():418] send_request: defer
+2024-08-25 17:34:31,858 INFO    SenderThread:33013 [sender.py:send_request_defer():622] handle sender defer: 3
+2024-08-25 17:34:31,858 INFO    SenderThread:33013 [sender.py:transition_state():626] send defer: 4
+2024-08-25 17:34:31,859 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: defer
+2024-08-25 17:34:31,859 INFO    HandlerThread:33013 [handler.py:handle_request_defer():184] handle defer: 4
+2024-08-25 17:34:31,859 DEBUG   SenderThread:33013 [sender.py:send_request():418] send_request: defer
+2024-08-25 17:34:31,859 INFO    SenderThread:33013 [sender.py:send_request_defer():622] handle sender defer: 4
+2024-08-25 17:34:31,859 INFO    SenderThread:33013 [sender.py:transition_state():626] send defer: 5
+2024-08-25 17:34:31,860 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: defer
+2024-08-25 17:34:31,860 INFO    HandlerThread:33013 [handler.py:handle_request_defer():184] handle defer: 5
+2024-08-25 17:34:31,860 DEBUG   SenderThread:33013 [sender.py:send():391] send: summary
+2024-08-25 17:34:31,861 INFO    SenderThread:33013 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-25 17:34:31,861 DEBUG   SenderThread:33013 [sender.py:send_request():418] send_request: defer
+2024-08-25 17:34:31,861 INFO    SenderThread:33013 [sender.py:send_request_defer():622] handle sender defer: 5
+2024-08-25 17:34:31,862 INFO    SenderThread:33013 [sender.py:transition_state():626] send defer: 6
+2024-08-25 17:34:31,862 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: defer
+2024-08-25 17:34:31,862 INFO    HandlerThread:33013 [handler.py:handle_request_defer():184] handle defer: 6
+2024-08-25 17:34:31,862 DEBUG   SenderThread:33013 [sender.py:send_request():418] send_request: defer
+2024-08-25 17:34:31,862 INFO    SenderThread:33013 [sender.py:send_request_defer():622] handle sender defer: 6
+2024-08-25 17:34:31,869 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: status_report
+2024-08-25 17:34:32,102 INFO    SenderThread:33013 [sender.py:transition_state():626] send defer: 7
+2024-08-25 17:34:32,103 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: defer
+2024-08-25 17:34:32,103 INFO    HandlerThread:33013 [handler.py:handle_request_defer():184] handle defer: 7
+2024-08-25 17:34:32,103 DEBUG   SenderThread:33013 [sender.py:send_request():418] send_request: defer
+2024-08-25 17:34:32,103 INFO    SenderThread:33013 [sender.py:send_request_defer():622] handle sender defer: 7
+2024-08-25 17:34:32,810 INFO    Thread-12 :33013 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_173418-kexoav99/files/config.yaml
+2024-08-25 17:34:32,811 INFO    Thread-12 :33013 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_173418-kexoav99/files/wandb-summary.json
+2024-08-25 17:34:32,848 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-25 17:34:33,021 INFO    SenderThread:33013 [sender.py:transition_state():626] send defer: 8
+2024-08-25 17:34:33,022 DEBUG   SenderThread:33013 [sender.py:send_request():418] send_request: poll_exit
+2024-08-25 17:34:33,022 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: defer
+2024-08-25 17:34:33,022 INFO    HandlerThread:33013 [handler.py:handle_request_defer():184] handle defer: 8
+2024-08-25 17:34:33,023 DEBUG   SenderThread:33013 [sender.py:send_request():418] send_request: defer
+2024-08-25 17:34:33,023 INFO    SenderThread:33013 [sender.py:send_request_defer():622] handle sender defer: 8
+2024-08-25 17:34:33,023 INFO    SenderThread:33013 [job_builder.py:build():443] Attempting to build job artifact
+2024-08-25 17:34:33,024 INFO    SenderThread:33013 [job_builder.py:_get_source_type():583] no source found
+2024-08-25 17:34:33,024 INFO    SenderThread:33013 [sender.py:transition_state():626] send defer: 9
+2024-08-25 17:34:33,025 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: defer
+2024-08-25 17:34:33,025 INFO    HandlerThread:33013 [handler.py:handle_request_defer():184] handle defer: 9
+2024-08-25 17:34:33,025 DEBUG   SenderThread:33013 [sender.py:send_request():418] send_request: defer
+2024-08-25 17:34:33,025 INFO    SenderThread:33013 [sender.py:send_request_defer():622] handle sender defer: 9
+2024-08-25 17:34:33,025 INFO    SenderThread:33013 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-08-25 17:34:33,814 INFO    SenderThread:33013 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_173418-kexoav99/files/output.log
+2024-08-25 17:34:33,815 INFO    SenderThread:33013 [dir_watcher.py:finish():388] scan: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_173418-kexoav99/files
+2024-08-25 17:34:33,815 INFO    SenderThread:33013 [dir_watcher.py:finish():402] scan save: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_173418-kexoav99/files/requirements.txt requirements.txt
+2024-08-25 17:34:33,816 INFO    SenderThread:33013 [dir_watcher.py:finish():402] scan save: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_173418-kexoav99/files/output.log output.log
+2024-08-25 17:34:33,816 INFO    SenderThread:33013 [dir_watcher.py:finish():402] scan save: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_173418-kexoav99/files/config.yaml config.yaml
+2024-08-25 17:34:33,817 INFO    SenderThread:33013 [dir_watcher.py:finish():402] scan save: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_173418-kexoav99/files/wandb-summary.json wandb-summary.json
+2024-08-25 17:34:33,820 INFO    SenderThread:33013 [dir_watcher.py:finish():402] scan save: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_173418-kexoav99/files/wandb-metadata.json wandb-metadata.json
+2024-08-25 17:34:33,820 INFO    SenderThread:33013 [sender.py:transition_state():626] send defer: 10
+2024-08-25 17:34:33,820 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: defer
+2024-08-25 17:34:33,820 INFO    HandlerThread:33013 [handler.py:handle_request_defer():184] handle defer: 10
+2024-08-25 17:34:33,827 DEBUG   SenderThread:33013 [sender.py:send_request():418] send_request: defer
+2024-08-25 17:34:33,828 INFO    SenderThread:33013 [sender.py:send_request_defer():622] handle sender defer: 10
+2024-08-25 17:34:33,829 INFO    SenderThread:33013 [file_pusher.py:finish():169] shutting down file pusher
+2024-08-25 17:34:33,849 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-25 17:34:33,849 DEBUG   SenderThread:33013 [sender.py:send_request():418] send_request: poll_exit
+2024-08-25 17:34:34,286 INFO    wandb-upload_0:33013 [upload_job.py:push():130] Uploaded file /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_173418-kexoav99/files/requirements.txt
+2024-08-25 17:34:34,397 INFO    wandb-upload_3:33013 [upload_job.py:push():130] Uploaded file /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_173418-kexoav99/files/wandb-summary.json
+2024-08-25 17:34:34,551 INFO    wandb-upload_1:33013 [upload_job.py:push():130] Uploaded file /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_173418-kexoav99/files/output.log
+2024-08-25 17:34:34,592 INFO    wandb-upload_2:33013 [upload_job.py:push():130] Uploaded file /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_173418-kexoav99/files/config.yaml
+2024-08-25 17:34:34,793 INFO    Thread-11 :33013 [sender.py:transition_state():626] send defer: 11
+2024-08-25 17:34:34,793 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: defer
+2024-08-25 17:34:34,794 INFO    HandlerThread:33013 [handler.py:handle_request_defer():184] handle defer: 11
+2024-08-25 17:34:34,794 DEBUG   SenderThread:33013 [sender.py:send_request():418] send_request: defer
+2024-08-25 17:34:34,794 INFO    SenderThread:33013 [sender.py:send_request_defer():622] handle sender defer: 11
+2024-08-25 17:34:34,794 INFO    SenderThread:33013 [file_pusher.py:join():175] waiting for file pusher
+2024-08-25 17:34:34,794 INFO    SenderThread:33013 [sender.py:transition_state():626] send defer: 12
+2024-08-25 17:34:34,795 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: defer
+2024-08-25 17:34:34,795 INFO    HandlerThread:33013 [handler.py:handle_request_defer():184] handle defer: 12
+2024-08-25 17:34:34,795 DEBUG   SenderThread:33013 [sender.py:send_request():418] send_request: defer
+2024-08-25 17:34:34,795 INFO    SenderThread:33013 [sender.py:send_request_defer():622] handle sender defer: 12
+2024-08-25 17:34:34,795 INFO    SenderThread:33013 [file_stream.py:finish():601] file stream finish called
+2024-08-25 17:34:34,854 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-25 17:34:35,000 INFO    SenderThread:33013 [file_stream.py:finish():605] file stream finish is done
+2024-08-25 17:34:35,000 INFO    SenderThread:33013 [sender.py:transition_state():626] send defer: 13
+2024-08-25 17:34:35,001 DEBUG   SenderThread:33013 [sender.py:send_request():418] send_request: poll_exit
+2024-08-25 17:34:35,001 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: defer
+2024-08-25 17:34:35,001 INFO    HandlerThread:33013 [handler.py:handle_request_defer():184] handle defer: 13
+2024-08-25 17:34:35,001 DEBUG   SenderThread:33013 [sender.py:send_request():418] send_request: defer
+2024-08-25 17:34:35,001 INFO    SenderThread:33013 [sender.py:send_request_defer():622] handle sender defer: 13
+2024-08-25 17:34:35,001 INFO    SenderThread:33013 [sender.py:transition_state():626] send defer: 14
+2024-08-25 17:34:35,002 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: defer
+2024-08-25 17:34:35,002 INFO    HandlerThread:33013 [handler.py:handle_request_defer():184] handle defer: 14
+2024-08-25 17:34:35,003 DEBUG   SenderThread:33013 [sender.py:send():391] send: final
+2024-08-25 17:34:35,003 DEBUG   SenderThread:33013 [sender.py:send():391] send: footer
+2024-08-25 17:34:35,003 DEBUG   SenderThread:33013 [sender.py:send_request():418] send_request: defer
+2024-08-25 17:34:35,003 INFO    SenderThread:33013 [sender.py:send_request_defer():622] handle sender defer: 14
+2024-08-25 17:34:35,004 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-25 17:34:35,004 DEBUG   SenderThread:33013 [sender.py:send_request():418] send_request: poll_exit
+2024-08-25 17:34:35,005 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: server_info
+2024-08-25 17:34:35,005 DEBUG   SenderThread:33013 [sender.py:send_request():418] send_request: server_info
+2024-08-25 17:34:35,007 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-25 17:34:35,008 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: get_summary
+2024-08-25 17:34:35,009 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: sampled_history
+2024-08-25 17:34:35,009 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:34:35,193 DEBUG   SenderThread:33013 [sender.py:send_request():418] send_request: poll_exit
+2024-08-25 17:34:35,193 INFO    MainThread:33013 [wandb_run.py:_footer_history_summary_info():4076] rendering history
+2024-08-25 17:34:35,193 INFO    MainThread:33013 [wandb_run.py:_footer_history_summary_info():4108] rendering summary
+2024-08-25 17:34:35,194 INFO    MainThread:33013 [wandb_run.py:_footer_sync_info():4035] logging synced files
+2024-08-25 17:34:35,195 DEBUG   HandlerThread:33013 [handler.py:handle_request():158] handle_request: shutdown
+2024-08-25 17:34:35,195 INFO    HandlerThread:33013 [handler.py:finish():880] shutting down handler
+2024-08-25 17:34:35,700 WARNING StreamThr :33013 [internal.py:is_dead():413] Internal process exiting, parent pid 33002 disappeared
+2024-08-25 17:34:35,701 ERROR   StreamThr :33013 [internal.py:wandb_internal():151] Internal process shutdown.
+2024-08-25 17:34:36,009 INFO    WriterThread:33013 [datastore.py:close():296] close: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_173418-kexoav99/run-kexoav99.wandb
+2024-08-25 17:34:36,198 INFO    SenderThread:33013 [sender.py:finish():1631] shutting down sender
+2024-08-25 17:34:36,198 INFO    SenderThread:33013 [file_pusher.py:finish():169] shutting down file pusher
+2024-08-25 17:34:36,199 INFO    SenderThread:33013 [file_pusher.py:join():175] waiting for file pusher

@@ -1,0 +1,308 @@
+2024-08-25 17:41:21,547 INFO    StreamThr :33493 [internal.py:wandb_internal():85] W&B internal server running at pid: 33493, started at: 2024-08-25 17:41:21.535508
+2024-08-25 17:41:21,554 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: status
+2024-08-25 17:41:21,557 INFO    WriterThread:33493 [datastore.py:open_for_write():87] open: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_174121-2icw4vqu/run-2icw4vqu.wandb
+2024-08-25 17:41:21,572 DEBUG   SenderThread:33493 [sender.py:send():391] send: header
+2024-08-25 17:41:21,644 DEBUG   SenderThread:33493 [sender.py:send():391] send: run
+2024-08-25 17:41:22,332 INFO    SenderThread:33493 [dir_watcher.py:__init__():211] watching files in: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_174121-2icw4vqu/files
+2024-08-25 17:41:22,332 INFO    SenderThread:33493 [sender.py:_start_run_threads():1200] run started: 2icw4vqu with start time 1724600481.526635
+2024-08-25 17:41:22,347 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: check_version
+2024-08-25 17:41:22,347 DEBUG   SenderThread:33493 [sender.py:send_request():418] send_request: check_version
+2024-08-25 17:41:22,666 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: run_start
+2024-08-25 17:41:22,679 DEBUG   HandlerThread:33493 [system_info.py:__init__():26] System info init
+2024-08-25 17:41:22,680 DEBUG   HandlerThread:33493 [system_info.py:__init__():41] System info init done
+2024-08-25 17:41:22,680 INFO    HandlerThread:33493 [system_monitor.py:start():194] Starting system monitor
+2024-08-25 17:41:22,680 INFO    SystemMonitor:33493 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-08-25 17:41:22,682 INFO    HandlerThread:33493 [system_monitor.py:probe():214] Collecting system info
+2024-08-25 17:41:22,682 INFO    SystemMonitor:33493 [interfaces.py:start():188] Started cpu monitoring
+2024-08-25 17:41:22,683 INFO    SystemMonitor:33493 [interfaces.py:start():188] Started disk monitoring
+2024-08-25 17:41:22,684 DEBUG   HandlerThread:33493 [system_info.py:probe():152] Probing system
+2024-08-25 17:41:22,687 INFO    SystemMonitor:33493 [interfaces.py:start():188] Started memory monitoring
+2024-08-25 17:41:22,688 INFO    SystemMonitor:33493 [interfaces.py:start():188] Started network monitoring
+2024-08-25 17:41:22,699 DEBUG   HandlerThread:33493 [system_info.py:_probe_git():137] Probing git
+2024-08-25 17:41:22,754 DEBUG   HandlerThread:33493 [system_info.py:_probe_git():145] Probing git done
+2024-08-25 17:41:22,754 DEBUG   HandlerThread:33493 [system_info.py:probe():200] Probing system done
+2024-08-25 17:41:22,754 DEBUG   HandlerThread:33493 [system_monitor.py:probe():223] {'os': 'macOS-14.4.1-x86_64-i386-64bit', 'python': '3.9.18', 'heartbeatAt': '2024-08-25T15:41:22.686909', 'startedAt': '2024-08-25T15:41:21.510169', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/eval.py', 'codePathLocal': 'eval.py', 'codePath': 'Documents/projet_IA/Mars_Crater_detection/eval.py', 'git': {'remote': None, 'commit': '4cb10b7658245ca8d526cca4120089bbd99c9433'}, 'email': 'tristanlecourtois4@gmail.com', 'root': '/Users/lecourtoistristan', 'host': 'MacBook-Pro-de-Tristan.local', 'username': 'lecourtoistristan', 'executable': '/usr/local/opt/python@3.9/bin/python3.9', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2400, 'min': 2400, 'max': 2400}, 'cpu_freq_per_core': [{'current': 2400, 'min': 2400, 'max': 2400}], 'disk': {'/': {'total': 465.62699127197266, 'used': 19.067306518554688}}, 'memory': {'total': 8.0}}
+2024-08-25 17:41:22,754 INFO    HandlerThread:33493 [system_monitor.py:probe():224] Finished collecting system info
+2024-08-25 17:41:22,754 INFO    HandlerThread:33493 [system_monitor.py:probe():227] Publishing system info
+2024-08-25 17:41:22,755 INFO    HandlerThread:33493 [system_monitor.py:probe():229] Finished publishing system info
+2024-08-25 17:41:22,772 DEBUG   SenderThread:33493 [sender.py:send():391] send: files
+2024-08-25 17:41:22,772 INFO    SenderThread:33493 [sender.py:_save_file():1466] saving file wandb-metadata.json with policy now
+2024-08-25 17:41:23,152 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: python_packages
+2024-08-25 17:41:23,153 DEBUG   SenderThread:33493 [sender.py:send_request():418] send_request: python_packages
+2024-08-25 17:41:23,155 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-25 17:41:23,156 DEBUG   SenderThread:33493 [sender.py:send_request():418] send_request: stop_status
+2024-08-25 17:41:23,156 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:23,335 INFO    Thread-12 :33493 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_174121-2icw4vqu/files/requirements.txt
+2024-08-25 17:41:23,336 INFO    Thread-12 :33493 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_174121-2icw4vqu/files/wandb-metadata.json
+2024-08-25 17:41:23,387 DEBUG   SenderThread:33493 [sender.py:send():391] send: telemetry
+2024-08-25 17:41:23,438 DEBUG   SenderThread:33493 [sender.py:send():391] send: telemetry
+2024-08-25 17:41:23,545 INFO    wandb-upload_0:33493 [upload_job.py:push():130] Uploaded file /var/folders/1t/5696w2xn2vsdwdq75jywx2sc0000gq/T/tmpqb8zm818wandb/ocgxyhf8-wandb-metadata.json
+2024-08-25 17:41:24,209 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:24,337 INFO    Thread-12 :33493 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_174121-2icw4vqu/files/output.log
+2024-08-25 17:41:25,171 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:26,179 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:26,338 INFO    Thread-12 :33493 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_174121-2icw4vqu/files/output.log
+2024-08-25 17:41:27,178 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:27,554 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: status_report
+2024-08-25 17:41:28,046 DEBUG   SenderThread:33493 [sender.py:send():391] send: telemetry
+2024-08-25 17:41:28,182 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:28,218 DEBUG   SenderThread:33493 [sender.py:send():391] send: telemetry
+2024-08-25 17:41:29,184 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:30,192 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:30,352 INFO    Thread-12 :33493 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_174121-2icw4vqu/files/output.log
+2024-08-25 17:41:31,193 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:32,222 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:32,629 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: status_report
+2024-08-25 17:41:33,224 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:34,232 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:35,219 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:36,289 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:37,303 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:38,176 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: status_report
+2024-08-25 17:41:38,194 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-25 17:41:38,194 DEBUG   SenderThread:33493 [sender.py:send_request():418] send_request: stop_status
+2024-08-25 17:41:38,285 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:39,311 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:40,280 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:41,294 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:42,316 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:43,307 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:44,181 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: status_report
+2024-08-25 17:41:44,314 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:44,400 INFO    Thread-12 :33493 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_174121-2icw4vqu/files/output.log
+2024-08-25 17:41:45,318 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:46,322 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:47,331 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:48,332 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:49,182 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: status_report
+2024-08-25 17:41:49,328 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:50,333 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:51,335 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:52,337 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:53,167 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-25 17:41:53,167 DEBUG   SenderThread:33493 [sender.py:send_request():418] send_request: stop_status
+2024-08-25 17:41:53,339 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:54,340 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:54,483 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: status_report
+2024-08-25 17:41:55,343 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:55,428 INFO    Thread-12 :33493 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_174121-2icw4vqu/files/config.yaml
+2024-08-25 17:41:56,355 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:57,353 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:58,354 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:41:58,440 INFO    Thread-12 :33493 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_174121-2icw4vqu/files/output.log
+2024-08-25 17:41:59,356 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:00,187 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: status_report
+2024-08-25 17:42:00,360 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:01,362 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:02,367 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:03,368 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:04,404 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:05,198 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: status_report
+2024-08-25 17:42:05,388 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:06,390 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:07,397 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:08,169 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-25 17:42:08,170 DEBUG   SenderThread:33493 [sender.py:send_request():418] send_request: stop_status
+2024-08-25 17:42:08,392 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:09,394 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:10,396 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: status_report
+2024-08-25 17:42:10,397 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:11,401 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:12,407 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:13,414 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:14,483 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:15,422 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:15,499 INFO    Thread-12 :33493 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_174121-2icw4vqu/files/output.log
+2024-08-25 17:42:15,504 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: status_report
+2024-08-25 17:42:16,429 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:17,428 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:18,428 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:19,484 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:20,437 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:21,222 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: status_report
+2024-08-25 17:42:21,441 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:22,447 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:22,691 DEBUG   SystemMonitor:33493 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-08-25 17:42:22,705 DEBUG   SenderThread:33493 [sender.py:send():391] send: stats
+2024-08-25 17:42:23,172 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-25 17:42:23,173 DEBUG   SenderThread:33493 [sender.py:send_request():418] send_request: stop_status
+2024-08-25 17:42:23,452 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:24,452 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:25,455 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:26,470 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:26,476 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: status_report
+2024-08-25 17:42:27,500 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:28,481 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:29,483 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:29,537 INFO    Thread-12 :33493 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_174121-2icw4vqu/files/output.log
+2024-08-25 17:42:30,488 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:31,487 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:32,200 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: status_report
+2024-08-25 17:42:32,490 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:33,491 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:34,495 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:35,499 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:36,501 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:37,221 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: status_report
+2024-08-25 17:42:37,505 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:38,173 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-25 17:42:38,174 DEBUG   SenderThread:33493 [sender.py:send_request():418] send_request: stop_status
+2024-08-25 17:42:38,508 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:39,511 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:40,523 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:41,525 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:41,574 INFO    Thread-12 :33493 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_174121-2icw4vqu/files/output.log
+2024-08-25 17:42:42,530 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:42,577 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: status_report
+2024-08-25 17:42:43,530 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:44,534 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:45,536 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:46,541 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:47,546 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:48,202 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: status_report
+2024-08-25 17:42:48,546 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:49,548 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:50,551 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:51,556 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:52,561 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:52,711 DEBUG   SenderThread:33493 [sender.py:send():391] send: stats
+2024-08-25 17:42:53,177 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-25 17:42:53,178 DEBUG   SenderThread:33493 [sender.py:send_request():418] send_request: stop_status
+2024-08-25 17:42:53,424 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: status_report
+2024-08-25 17:42:53,562 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:53,613 INFO    Thread-12 :33493 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_174121-2icw4vqu/files/output.log
+2024-08-25 17:42:54,564 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:55,615 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:56,589 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:57,652 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:58,590 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:42:59,211 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: status_report
+2024-08-25 17:42:59,595 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:43:00,598 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:43:01,602 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:43:02,605 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:43:03,607 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:43:04,214 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: status_report
+2024-08-25 17:43:04,610 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:43:05,612 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:43:06,615 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:43:07,617 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:43:07,693 INFO    Thread-12 :33493 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_174121-2icw4vqu/files/output.log
+2024-08-25 17:43:07,728 DEBUG   SenderThread:33493 [sender.py:send():391] send: telemetry
+2024-08-25 17:43:07,738 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-25 17:43:07,741 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-25 17:43:08,177 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-25 17:43:08,178 DEBUG   SenderThread:33493 [sender.py:send_request():418] send_request: stop_status
+2024-08-25 17:43:08,617 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:43:09,393 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: status_report
+2024-08-25 17:43:09,619 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:43:09,697 INFO    Thread-12 :33493 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_174121-2icw4vqu/files/output.log
+2024-08-25 17:43:10,622 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:43:11,625 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:43:12,564 DEBUG   SenderThread:33493 [sender.py:send():391] send: telemetry
+2024-08-25 17:43:12,628 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-25 17:43:12,882 DEBUG   SenderThread:33493 [sender.py:send():391] send: exit
+2024-08-25 17:43:12,882 INFO    SenderThread:33493 [sender.py:send_exit():598] handling exit code: 1
+2024-08-25 17:43:12,885 INFO    SenderThread:33493 [sender.py:send_exit():600] handling runtime: 110
+2024-08-25 17:43:12,886 INFO    SenderThread:33493 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-25 17:43:12,886 INFO    SenderThread:33493 [sender.py:send_exit():606] send defer
+2024-08-25 17:43:12,887 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: defer
+2024-08-25 17:43:12,888 INFO    HandlerThread:33493 [handler.py:handle_request_defer():184] handle defer: 0
+2024-08-25 17:43:12,888 DEBUG   SenderThread:33493 [sender.py:send_request():418] send_request: defer
+2024-08-25 17:43:12,888 INFO    SenderThread:33493 [sender.py:send_request_defer():622] handle sender defer: 0
+2024-08-25 17:43:12,889 INFO    SenderThread:33493 [sender.py:transition_state():626] send defer: 1
+2024-08-25 17:43:12,889 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: defer
+2024-08-25 17:43:12,889 INFO    HandlerThread:33493 [handler.py:handle_request_defer():184] handle defer: 1
+2024-08-25 17:43:12,889 DEBUG   SenderThread:33493 [sender.py:send_request():418] send_request: defer
+2024-08-25 17:43:12,889 INFO    SenderThread:33493 [sender.py:send_request_defer():622] handle sender defer: 1
+2024-08-25 17:43:12,889 INFO    SenderThread:33493 [sender.py:transition_state():626] send defer: 2
+2024-08-25 17:43:12,890 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: defer
+2024-08-25 17:43:12,890 INFO    HandlerThread:33493 [handler.py:handle_request_defer():184] handle defer: 2
+2024-08-25 17:43:12,890 INFO    HandlerThread:33493 [system_monitor.py:finish():203] Stopping system monitor
+2024-08-25 17:43:12,890 DEBUG   SystemMonitor:33493 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-08-25 17:43:12,890 DEBUG   SystemMonitor:33493 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-08-25 17:43:12,891 INFO    HandlerThread:33493 [interfaces.py:finish():200] Joined cpu monitor
+2024-08-25 17:43:12,892 INFO    HandlerThread:33493 [interfaces.py:finish():200] Joined disk monitor
+2024-08-25 17:43:12,892 INFO    HandlerThread:33493 [interfaces.py:finish():200] Joined memory monitor
+2024-08-25 17:43:12,892 INFO    HandlerThread:33493 [interfaces.py:finish():200] Joined network monitor
+2024-08-25 17:43:12,893 DEBUG   SenderThread:33493 [sender.py:send_request():418] send_request: defer
+2024-08-25 17:43:12,893 INFO    SenderThread:33493 [sender.py:send_request_defer():622] handle sender defer: 2
+2024-08-25 17:43:12,893 INFO    SenderThread:33493 [sender.py:transition_state():626] send defer: 3
+2024-08-25 17:43:12,894 DEBUG   SenderThread:33493 [sender.py:send():391] send: stats
+2024-08-25 17:43:12,894 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: defer
+2024-08-25 17:43:12,894 INFO    HandlerThread:33493 [handler.py:handle_request_defer():184] handle defer: 3
+2024-08-25 17:43:12,898 DEBUG   SenderThread:33493 [sender.py:send():391] send: history
+2024-08-25 17:43:12,898 DEBUG   SenderThread:33493 [sender.py:send_request():418] send_request: summary_record
+2024-08-25 17:43:12,899 INFO    SenderThread:33493 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-25 17:43:12,899 DEBUG   SenderThread:33493 [sender.py:send_request():418] send_request: defer
+2024-08-25 17:43:12,899 INFO    SenderThread:33493 [sender.py:send_request_defer():622] handle sender defer: 3
+2024-08-25 17:43:12,899 INFO    SenderThread:33493 [sender.py:transition_state():626] send defer: 4
+2024-08-25 17:43:12,899 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: defer
+2024-08-25 17:43:12,899 INFO    HandlerThread:33493 [handler.py:handle_request_defer():184] handle defer: 4
+2024-08-25 17:43:12,900 DEBUG   SenderThread:33493 [sender.py:send_request():418] send_request: defer
+2024-08-25 17:43:12,900 INFO    SenderThread:33493 [sender.py:send_request_defer():622] handle sender defer: 4
+2024-08-25 17:43:12,900 INFO    SenderThread:33493 [sender.py:transition_state():626] send defer: 5
+2024-08-25 17:43:12,900 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: defer
+2024-08-25 17:43:12,900 INFO    HandlerThread:33493 [handler.py:handle_request_defer():184] handle defer: 5
+2024-08-25 17:43:12,900 DEBUG   SenderThread:33493 [sender.py:send():391] send: summary
+2024-08-25 17:43:12,901 INFO    SenderThread:33493 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-25 17:43:12,901 DEBUG   SenderThread:33493 [sender.py:send_request():418] send_request: defer
+2024-08-25 17:43:12,902 INFO    SenderThread:33493 [sender.py:send_request_defer():622] handle sender defer: 5
+2024-08-25 17:43:12,902 INFO    SenderThread:33493 [sender.py:transition_state():626] send defer: 6
+2024-08-25 17:43:12,902 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: defer
+2024-08-25 17:43:12,902 INFO    HandlerThread:33493 [handler.py:handle_request_defer():184] handle defer: 6
+2024-08-25 17:43:12,902 DEBUG   SenderThread:33493 [sender.py:send_request():418] send_request: defer
+2024-08-25 17:43:12,902 INFO    SenderThread:33493 [sender.py:send_request_defer():622] handle sender defer: 6
+2024-08-25 17:43:12,908 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: status_report
+2024-08-25 17:43:13,145 INFO    SenderThread:33493 [sender.py:transition_state():626] send defer: 7
+2024-08-25 17:43:13,146 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: defer
+2024-08-25 17:43:13,146 INFO    HandlerThread:33493 [handler.py:handle_request_defer():184] handle defer: 7
+2024-08-25 17:43:13,146 DEBUG   SenderThread:33493 [sender.py:send_request():418] send_request: defer
+2024-08-25 17:43:13,146 INFO    SenderThread:33493 [sender.py:send_request_defer():622] handle sender defer: 7
+2024-08-25 17:43:13,705 INFO    Thread-12 :33493 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_174121-2icw4vqu/files/output.log
+2024-08-25 17:43:13,705 INFO    Thread-12 :33493 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_174121-2icw4vqu/files/config.yaml
+2024-08-25 17:43:13,706 INFO    Thread-12 :33493 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_174121-2icw4vqu/files/wandb-summary.json
+2024-08-25 17:43:13,889 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-25 17:43:13,891 INFO    SenderThread:33493 [sender.py:transition_state():626] send defer: 8
+2024-08-25 17:43:13,891 DEBUG   SenderThread:33493 [sender.py:send_request():418] send_request: poll_exit
+2024-08-25 17:43:13,891 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: defer
+2024-08-25 17:43:13,893 INFO    HandlerThread:33493 [handler.py:handle_request_defer():184] handle defer: 8
+2024-08-25 17:43:13,893 DEBUG   SenderThread:33493 [sender.py:send_request():418] send_request: defer
+2024-08-25 17:43:13,893 INFO    SenderThread:33493 [sender.py:send_request_defer():622] handle sender defer: 8
+2024-08-25 17:43:13,894 INFO    SenderThread:33493 [job_builder.py:build():443] Attempting to build job artifact
+2024-08-25 17:43:13,899 INFO    SenderThread:33493 [job_builder.py:_get_source_type():583] no source found
+2024-08-25 17:43:13,899 INFO    SenderThread:33493 [sender.py:transition_state():626] send defer: 9
+2024-08-25 17:43:13,899 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: defer
+2024-08-25 17:43:13,899 INFO    HandlerThread:33493 [handler.py:handle_request_defer():184] handle defer: 9
+2024-08-25 17:43:13,900 DEBUG   SenderThread:33493 [sender.py:send_request():418] send_request: defer
+2024-08-25 17:43:13,900 INFO    SenderThread:33493 [sender.py:send_request_defer():622] handle sender defer: 9
+2024-08-25 17:43:13,900 INFO    SenderThread:33493 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-08-25 17:43:14,709 INFO    Thread-12 :33493 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_174121-2icw4vqu/files/output.log
+2024-08-25 17:43:14,711 INFO    SenderThread:33493 [dir_watcher.py:finish():388] scan: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_174121-2icw4vqu/files
+2024-08-25 17:43:14,711 INFO    SenderThread:33493 [dir_watcher.py:finish():402] scan save: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_174121-2icw4vqu/files/requirements.txt requirements.txt
+2024-08-25 17:43:14,712 INFO    SenderThread:33493 [dir_watcher.py:finish():402] scan save: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_174121-2icw4vqu/files/output.log output.log
+2024-08-25 17:43:14,717 INFO    SenderThread:33493 [dir_watcher.py:finish():402] scan save: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_174121-2icw4vqu/files/config.yaml config.yaml
+2024-08-25 17:43:14,717 INFO    SenderThread:33493 [dir_watcher.py:finish():402] scan save: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_174121-2icw4vqu/files/wandb-summary.json wandb-summary.json
+2024-08-25 17:43:14,723 INFO    SenderThread:33493 [dir_watcher.py:finish():402] scan save: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_174121-2icw4vqu/files/wandb-metadata.json wandb-metadata.json
+2024-08-25 17:43:14,723 INFO    SenderThread:33493 [sender.py:transition_state():626] send defer: 10
+2024-08-25 17:43:14,724 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: defer
+2024-08-25 17:43:14,726 INFO    HandlerThread:33493 [handler.py:handle_request_defer():184] handle defer: 10
+2024-08-25 17:43:14,729 DEBUG   SenderThread:33493 [sender.py:send_request():418] send_request: defer
+2024-08-25 17:43:14,729 INFO    SenderThread:33493 [sender.py:send_request_defer():622] handle sender defer: 10
+2024-08-25 17:43:14,729 INFO    SenderThread:33493 [file_pusher.py:finish():169] shutting down file pusher
+2024-08-25 17:43:14,798 WARNING StreamThr :33493 [internal.py:is_dead():413] Internal process exiting, parent pid 33485 disappeared
+2024-08-25 17:43:14,798 ERROR   StreamThr :33493 [internal.py:wandb_internal():151] Internal process shutdown.
+2024-08-25 17:43:14,897 DEBUG   HandlerThread:33493 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-25 17:43:14,897 INFO    HandlerThread:33493 [handler.py:finish():880] shutting down handler
+2024-08-25 17:43:14,898 INFO    WriterThread:33493 [datastore.py:close():296] close: /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_174121-2icw4vqu/run-2icw4vqu.wandb
+2024-08-25 17:43:14,898 DEBUG   SenderThread:33493 [sender.py:send_request():418] send_request: poll_exit
+2024-08-25 17:43:14,898 INFO    SenderThread:33493 [sender.py:finish():1631] shutting down sender
+2024-08-25 17:43:14,898 INFO    SenderThread:33493 [file_pusher.py:finish():169] shutting down file pusher
+2024-08-25 17:43:14,899 INFO    SenderThread:33493 [file_pusher.py:join():175] waiting for file pusher
+2024-08-25 17:43:15,244 INFO    wandb-upload_0:33493 [upload_job.py:push():130] Uploaded file /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_174121-2icw4vqu/files/requirements.txt
+2024-08-25 17:43:15,464 INFO    wandb-upload_1:33493 [upload_job.py:push():130] Uploaded file /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_174121-2icw4vqu/files/output.log
+2024-08-25 17:43:15,470 INFO    wandb-upload_3:33493 [upload_job.py:push():130] Uploaded file /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_174121-2icw4vqu/files/wandb-summary.json
+2024-08-25 17:43:15,477 INFO    wandb-upload_2:33493 [upload_job.py:push():130] Uploaded file /Users/lecourtoistristan/Documents/projet_IA/Mars_Crater_detection/wandb/run-20240825_174121-2icw4vqu/files/config.yaml
+2024-08-25 17:43:15,681 INFO    Thread-11 :33493 [sender.py:transition_state():626] send defer: 11
+2024-08-25 17:43:15,909 INFO    SenderThread:33493 [file_stream.py:finish():601] file stream finish called
+2024-08-25 17:43:16,753 INFO    SenderThread:33493 [file_stream.py:finish():605] file stream finish is done

@@ -15,5 +15,12 @@ Implementing YOLO8 to detect craters on Mars
 2. Navigate to the repository:
  ```bash
    cd mars-crater-detection
+```
 
-// <img src="./runs/detect/train2/train_batch0.jpg" alt="Crater 1" width="600"/>
+3. Run the different files to preprocess data and visualize sample detections:
+```bash
+python preprocess.py
+python eval.py
+```
+
+<img src="./runs/detect/train2/train_batch0.jpg" alt="Crater 1" width="600"/>
